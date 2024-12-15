@@ -8,10 +8,6 @@ class FishingRod:
        Args:
            throw_force (int): Сила заброса удочки (от 5 до 100).
            rarity_fishing_rod (int): Редкость удочки (от 1 до 5).
-
-       Raises:
-           TypeError: Если аргументы не являются целыми числами.
-           ValueError: Если значения аргументов выходят за допустимые пределы.
     """
 
     def __init__(self, throw_force: int, rarity_fishing_rod: int):
@@ -62,10 +58,6 @@ class Lake:
     Args:
         square (int): Площадь озера (не менее 7 км^2).
         depth (int): Глубина озера (не менее 1 метра).
-
-    Raises:
-        TypeError: Если аргументы не являются целыми числами.
-        ValueError: Если значения аргументов выходят за допустимые пределы.
     """
 
     def __init__(self, square: int, depth: int):
@@ -118,10 +110,6 @@ class Boat:
     Args:
         number_of_seats (int): Количество мест в лодке (от 1 до 4).
         speed (int): Скорость лодки (не более 20 км/ч).
-
-    Raises:
-        TypeError: Если аргументы не являются целыми числами.
-        ValueError: Если значения аргументов выходят за допустимые пределы.
     """
 
     def __init__(self, number_of_seats: int, speed: int):
